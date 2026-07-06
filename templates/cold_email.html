@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; line-height:1.7;">
+
+<p>Hi {{ first_name }},</p>
+
+{{ ai_email | safe }}
+
+<p>
+Best regards,<br>
+<strong>Sinchana Raj G</strong><br>
+Portfolio:
+<a href="{{ portfolio }}">{{ portfolio }}</a><br>
+Email:
+{{ sender_email }}
+</p>
+
+</body>
+</html>
